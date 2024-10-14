@@ -47,4 +47,6 @@ public class JournalEntryController {
     public JournalEntry updateJournalEntryById(@PathVariable Long id, @RequestBody JournalEntry myEntry) {
         return journalEntries.put(id, myEntry);
     }
+    
+    //Final
 }
